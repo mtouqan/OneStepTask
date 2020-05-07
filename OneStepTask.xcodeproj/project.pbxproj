@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F19287A2463F11F0048C33C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1928792463F11F0048C33C /* AppDelegate.swift */; };
+		9F19287C2463F11F0048C33C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F19287B2463F11F0048C33C /* SceneDelegate.swift */; };
+		9F19287E2463F11F0048C33C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F19287D2463F11F0048C33C /* ViewController.swift */; };
+		9F1928812463F11F0048C33C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F19287F2463F11F0048C33C /* Main.storyboard */; };
+		9F1928842463F11F0048C33C /* OneStepTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F1928822463F11F0048C33C /* OneStepTask.xcdatamodeld */; };
+		9F1928862463F1200048C33C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F1928852463F1200048C33C /* Assets.xcassets */; };
+		9F1928892463F1200048C33C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F1928872463F1200048C33C /* LaunchScreen.storyboard */; };
+		9F1928942463F1200048C33C /* OneStepTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1928932463F1200048C33C /* OneStepTaskTests.swift */; };
+		9F19289F2463F1210048C33C /* OneStepTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F19289E2463F1210048C33C /* OneStepTaskUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F1928902463F1200048C33C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F19286E2463F11F0048C33C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F1928752463F11F0048C33C;
+			remoteInfo = OneStepTask;
+		};
+		9F19289B2463F1210048C33C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F19286E2463F11F0048C33C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F1928752463F11F0048C33C;
+			remoteInfo = OneStepTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F1928762463F11F0048C33C /* OneStepTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneStepTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1928792463F11F0048C33C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F19287B2463F11F0048C33C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9F19287D2463F11F0048C33C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F1928802463F11F0048C33C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F1928832463F11F0048C33C /* OneStepTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OneStepTask.xcdatamodel; sourceTree = "<group>"; };
+		9F1928852463F1200048C33C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F1928882463F1200048C33C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F19288A2463F1200048C33C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F19288F2463F1200048C33C /* OneStepTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneStepTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1928932463F1200048C33C /* OneStepTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneStepTaskTests.swift; sourceTree = "<group>"; };
+		9F1928952463F1200048C33C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F19289A2463F1210048C33C /* OneStepTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneStepTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F19289E2463F1210048C33C /* OneStepTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneStepTaskUITests.swift; sourceTree = "<group>"; };
+		9F1928A02463F1210048C33C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F1928732463F11F0048C33C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F19288C2463F1200048C33C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1928972463F1210048C33C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F19286D2463F11F0048C33C = {
+			isa = PBXGroup;
+			children = (
+				9F1928782463F11F0048C33C /* OneStepTask */,
+				9F1928922463F1200048C33C /* OneStepTaskTests */,
+				9F19289D2463F1210048C33C /* OneStepTaskUITests */,
+				9F1928772463F11F0048C33C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F1928772463F11F0048C33C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F1928762463F11F0048C33C /* OneStepTask.app */,
+				9F19288F2463F1200048C33C /* OneStepTaskTests.xctest */,
+				9F19289A2463F1210048C33C /* OneStepTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F1928782463F11F0048C33C /* OneStepTask */ = {
+			isa = PBXGroup;
+			children = (
+				9F1928792463F11F0048C33C /* AppDelegate.swift */,
+				9F19287B2463F11F0048C33C /* SceneDelegate.swift */,
+				9F19287D2463F11F0048C33C /* ViewController.swift */,
+				9F19287F2463F11F0048C33C /* Main.storyboard */,
+				9F1928852463F1200048C33C /* Assets.xcassets */,
+				9F1928872463F1200048C33C /* LaunchScreen.storyboard */,
+				9F19288A2463F1200048C33C /* Info.plist */,
+				9F1928822463F11F0048C33C /* OneStepTask.xcdatamodeld */,
+			);
+			path = OneStepTask;
+			sourceTree = "<group>";
+		};
+		9F1928922463F1200048C33C /* OneStepTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F1928932463F1200048C33C /* OneStepTaskTests.swift */,
+				9F1928952463F1200048C33C /* Info.plist */,
+			);
+			path = OneStepTaskTests;
+			sourceTree = "<group>";
+		};
+		9F19289D2463F1210048C33C /* OneStepTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F19289E2463F1210048C33C /* OneStepTaskUITests.swift */,
+				9F1928A02463F1210048C33C /* Info.plist */,
+			);
+			path = OneStepTaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F1928752463F11F0048C33C /* OneStepTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F1928A32463F1210048C33C /* Build configuration list for PBXNativeTarget "OneStepTask" */;
+			buildPhases = (
+				9F1928722463F11F0048C33C /* Sources */,
+				9F1928732463F11F0048C33C /* Frameworks */,
+				9F1928742463F11F0048C33C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneStepTask;
+			productName = OneStepTask;
+			productReference = 9F1928762463F11F0048C33C /* OneStepTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F19288E2463F1200048C33C /* OneStepTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F1928A62463F1210048C33C /* Build configuration list for PBXNativeTarget "OneStepTaskTests" */;
+			buildPhases = (
+				9F19288B2463F1200048C33C /* Sources */,
+				9F19288C2463F1200048C33C /* Frameworks */,
+				9F19288D2463F1200048C33C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F1928912463F1200048C33C /* PBXTargetDependency */,
+			);
+			name = OneStepTaskTests;
+			productName = OneStepTaskTests;
+			productReference = 9F19288F2463F1200048C33C /* OneStepTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F1928992463F1210048C33C /* OneStepTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F1928A92463F1210048C33C /* Build configuration list for PBXNativeTarget "OneStepTaskUITests" */;
+			buildPhases = (
+				9F1928962463F1210048C33C /* Sources */,
+				9F1928972463F1210048C33C /* Frameworks */,
+				9F1928982463F1210048C33C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F19289C2463F1210048C33C /* PBXTargetDependency */,
+			);
+			name = OneStepTaskUITests;
+			productName = OneStepTaskUITests;
+			productReference = 9F19289A2463F1210048C33C /* OneStepTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F19286E2463F11F0048C33C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Munia Touqan ";
+				TargetAttributes = {
+					9F1928752463F11F0048C33C = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					9F19288E2463F1200048C33C = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 9F1928752463F11F0048C33C;
+					};
+					9F1928992463F1210048C33C = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 9F1928752463F11F0048C33C;
+					};
+				};
+			};
+			buildConfigurationList = 9F1928712463F11F0048C33C /* Build configuration list for PBXProject "OneStepTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F19286D2463F11F0048C33C;
+			productRefGroup = 9F1928772463F11F0048C33C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F1928752463F11F0048C33C /* OneStepTask */,
+				9F19288E2463F1200048C33C /* OneStepTaskTests */,
+				9F1928992463F1210048C33C /* OneStepTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F1928742463F11F0048C33C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1928892463F1200048C33C /* LaunchScreen.storyboard in Resources */,
+				9F1928862463F1200048C33C /* Assets.xcassets in Resources */,
+				9F1928812463F11F0048C33C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F19288D2463F1200048C33C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1928982463F1210048C33C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F1928722463F11F0048C33C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F19287E2463F11F0048C33C /* ViewController.swift in Sources */,
+				9F1928842463F11F0048C33C /* OneStepTask.xcdatamodeld in Sources */,
+				9F19287A2463F11F0048C33C /* AppDelegate.swift in Sources */,
+				9F19287C2463F11F0048C33C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F19288B2463F1200048C33C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1928942463F1200048C33C /* OneStepTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1928962463F1210048C33C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F19289F2463F1210048C33C /* OneStepTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F1928912463F1200048C33C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F1928752463F11F0048C33C /* OneStepTask */;
+			targetProxy = 9F1928902463F1200048C33C /* PBXContainerItemProxy */;
+		};
+		9F19289C2463F1210048C33C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F1928752463F11F0048C33C /* OneStepTask */;
+			targetProxy = 9F19289B2463F1210048C33C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F19287F2463F11F0048C33C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F1928802463F11F0048C33C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F1928872463F1200048C33C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F1928882463F1200048C33C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F1928A12463F1210048C33C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F1928A22463F1210048C33C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F1928A42463F1210048C33C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EJUSUJQ4JR;
+				INFOPLIST_FILE = OneStepTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iiii.OneStepTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F1928A52463F1210048C33C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EJUSUJQ4JR;
+				INFOPLIST_FILE = OneStepTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iiii.OneStepTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9F1928A72463F1210048C33C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EJUSUJQ4JR;
+				INFOPLIST_FILE = OneStepTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iiii.OneStepTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneStepTask.app/OneStepTask";
+			};
+			name = Debug;
+		};
+		9F1928A82463F1210048C33C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EJUSUJQ4JR;
+				INFOPLIST_FILE = OneStepTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iiii.OneStepTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneStepTask.app/OneStepTask";
+			};
+			name = Release;
+		};
+		9F1928AA2463F1210048C33C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EJUSUJQ4JR;
+				INFOPLIST_FILE = OneStepTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iiii.OneStepTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OneStepTask;
+			};
+			name = Debug;
+		};
+		9F1928AB2463F1210048C33C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EJUSUJQ4JR;
+				INFOPLIST_FILE = OneStepTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iiii.OneStepTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OneStepTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F1928712463F11F0048C33C /* Build configuration list for PBXProject "OneStepTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1928A12463F1210048C33C /* Debug */,
+				9F1928A22463F1210048C33C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F1928A32463F1210048C33C /* Build configuration list for PBXNativeTarget "OneStepTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1928A42463F1210048C33C /* Debug */,
+				9F1928A52463F1210048C33C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F1928A62463F1210048C33C /* Build configuration list for PBXNativeTarget "OneStepTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1928A72463F1210048C33C /* Debug */,
+				9F1928A82463F1210048C33C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F1928A92463F1210048C33C /* Build configuration list for PBXNativeTarget "OneStepTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1928AA2463F1210048C33C /* Debug */,
+				9F1928AB2463F1210048C33C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9F1928822463F11F0048C33C /* OneStepTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9F1928832463F11F0048C33C /* OneStepTask.xcdatamodel */,
+			);
+			currentVersion = 9F1928832463F11F0048C33C /* OneStepTask.xcdatamodel */;
+			path = OneStepTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9F19286E2463F11F0048C33C /* Project object */;
+}

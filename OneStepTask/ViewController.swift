@@ -9,10 +9,20 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+       
+    }
+    override func viewDidAppear(_ animated: Bool) {
+         
+    }
+    
+    @IBAction func displayActivity() {
+        let activityViewController = self.storyboard?.instantiateViewController(withIdentifier:
+            "ActivityViewController") as! ActivityViewController
+        activityViewController.activityID = 1
+        self.present(activityViewController, animated: true, completion: nil)
     }
 
 

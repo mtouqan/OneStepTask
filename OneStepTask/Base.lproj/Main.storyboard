@@ -1,24 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Activity View Controller-->
+        <scene sceneID="XFe-fK-Yyo">
+            <objects>
+                <viewController storyboardIdentifier="ActivityViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="qv7-1B-p1E" customClass="ActivityViewController" customModule="OneStepTask" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="r8w-jM-6Sz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z4g-3b-6jR" customClass="ActivityDetailsView" customModule="OneStepTask" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="wO9-P0-KVZ" firstAttribute="trailing" secondItem="z4g-3b-6jR" secondAttribute="trailing" id="4OY-Ms-byI"/>
+                            <constraint firstItem="wO9-P0-KVZ" firstAttribute="bottom" secondItem="z4g-3b-6jR" secondAttribute="bottom" id="BSJ-GO-dfN"/>
+                            <constraint firstItem="z4g-3b-6jR" firstAttribute="leading" secondItem="wO9-P0-KVZ" secondAttribute="leading" id="Src-Ie-5Cd"/>
+                            <constraint firstItem="z4g-3b-6jR" firstAttribute="top" secondItem="wO9-P0-KVZ" secondAttribute="top" id="dft-jj-O2v"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wO9-P0-KVZ"/>
+                    </view>
+                    <connections>
+                        <outlet property="activityView" destination="z4g-3b-6jR" id="lN4-UB-hMs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SeV-JN-qKD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="490" y="-304"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="OneStepTask" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XwM-62-ZdR">
+                                <rect key="frame" x="154.5" y="298" width="105" height="30"/>
+                                <state key="normal" title="Display Activity"/>
+                                <connections>
+                                    <action selector="displayActivity" destination="BYZ-38-t0r" eventType="touchUpInside" id="Agr-Qe-vrl"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="XwM-62-ZdR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="254" id="CCt-UW-5ax"/>
+                            <constraint firstItem="XwM-62-ZdR" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="urL-No-WmR"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="68" y="-187"/>
         </scene>
     </scenes>
 </document>

@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BF22CDAE17CF1F3D8B13886 /* Pods_OneStepTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1519AD532E875195E8187338 /* Pods_OneStepTaskTests.framework */; };
+		2C40A8E034A2FF892F29D8F9 /* Pods_OneStepTask_OneStepTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0DF56BE3D8D60E7287C4221 /* Pods_OneStepTask_OneStepTaskUITests.framework */; };
 		9F19287A2463F11F0048C33C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1928792463F11F0048C33C /* AppDelegate.swift */; };
 		9F19287C2463F11F0048C33C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F19287B2463F11F0048C33C /* SceneDelegate.swift */; };
 		9F19287E2463F11F0048C33C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F19287D2463F11F0048C33C /* ViewController.swift */; };
@@ -16,6 +18,22 @@
 		9F1928892463F1200048C33C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F1928872463F1200048C33C /* LaunchScreen.storyboard */; };
 		9F1928942463F1200048C33C /* OneStepTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1928932463F1200048C33C /* OneStepTaskTests.swift */; };
 		9F19289F2463F1210048C33C /* OneStepTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F19289E2463F1210048C33C /* OneStepTaskUITests.swift */; };
+		9F1928AE2463F9BD0048C33C /* NetworkUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1928AD2463F9BD0048C33C /* NetworkUtils.swift */; };
+		9F1928B02463F9CF0048C33C /* NetworkKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1928AF2463F9CF0048C33C /* NetworkKeys.swift */; };
+		9F1928B32463FC840048C33C /* ActivityDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1928B22463FC840048C33C /* ActivityDetails.swift */; };
+		9F1928B62463FF4B0048C33C /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1928B52463FF4B0048C33C /* ActivityViewController.swift */; };
+		9F1928B82463FF8F0048C33C /* ActivityDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1928B72463FF8F0048C33C /* ActivityDetailsModel.swift */; };
+		9F1928C124640C490048C33C /* ActivityDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1928C024640C490048C33C /* ActivityDetailsView.swift */; };
+		9F1928C324640C7A0048C33C /* ActivityDetailsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F1928C224640C7A0048C33C /* ActivityDetailsView.xib */; };
+		9F1928C624640F3B0048C33C /* ActivityTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1928C424640F3B0048C33C /* ActivityTitleCell.swift */; };
+		9F1928C724640F3B0048C33C /* ActivityTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F1928C524640F3B0048C33C /* ActivityTitleCell.xib */; };
+		9F1928CA2464187B0048C33C /* MetaDataCellCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1928C82464187B0048C33C /* MetaDataCellCell.swift */; };
+		9F1928CB2464187B0048C33C /* MetaDataCellCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F1928C92464187B0048C33C /* MetaDataCellCell.xib */; };
+		9F1928CE24641E190048C33C /* EnrichmentsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1928CC24641E190048C33C /* EnrichmentsCell.swift */; };
+		9F1928CF24641E190048C33C /* EnrichmentsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F1928CD24641E190048C33C /* EnrichmentsCell.xib */; };
+		9F1928D1246422900048C33C /* EnrichmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1928D0246422900048C33C /* EnrichmentsView.swift */; };
+		9F1928D3246422AB0048C33C /* EnrichmentsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F1928D2246422AB0048C33C /* EnrichmentsView.xib */; };
+		DF5C0AF41F40BC68904EAEF3 /* Pods_OneStepTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3634E5D86FED545F87C251C4 /* Pods_OneStepTask.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +54,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1519AD532E875195E8187338 /* Pods_OneStepTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneStepTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FE48268303D6E5B5017B80E /* Pods-OneStepTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneStepTask.debug.xcconfig"; path = "Target Support Files/Pods-OneStepTask/Pods-OneStepTask.debug.xcconfig"; sourceTree = "<group>"; };
+		3634E5D86FED545F87C251C4 /* Pods_OneStepTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneStepTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EF47D385D3BA94E6C60D352 /* Pods-OneStepTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneStepTaskTests.release.xcconfig"; path = "Target Support Files/Pods-OneStepTaskTests/Pods-OneStepTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		5E52CDF4C7DCA78E896E4D5D /* Pods-OneStepTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneStepTask.release.xcconfig"; path = "Target Support Files/Pods-OneStepTask/Pods-OneStepTask.release.xcconfig"; sourceTree = "<group>"; };
+		6E0F90DF281ABD9EC401E0D8 /* Pods-OneStepTask-OneStepTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneStepTask-OneStepTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-OneStepTask-OneStepTaskUITests/Pods-OneStepTask-OneStepTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9CAF5099A033C60C87A9802A /* Pods-OneStepTask-OneStepTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneStepTask-OneStepTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-OneStepTask-OneStepTaskUITests/Pods-OneStepTask-OneStepTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9F1928762463F11F0048C33C /* OneStepTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneStepTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F1928792463F11F0048C33C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F19287B2463F11F0048C33C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +76,23 @@
 		9F19289A2463F1210048C33C /* OneStepTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneStepTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F19289E2463F1210048C33C /* OneStepTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneStepTaskUITests.swift; sourceTree = "<group>"; };
 		9F1928A02463F1210048C33C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F1928AD2463F9BD0048C33C /* NetworkUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkUtils.swift; sourceTree = "<group>"; };
+		9F1928AF2463F9CF0048C33C /* NetworkKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkKeys.swift; sourceTree = "<group>"; };
+		9F1928B22463FC840048C33C /* ActivityDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDetails.swift; sourceTree = "<group>"; };
+		9F1928B52463FF4B0048C33C /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		9F1928B72463FF8F0048C33C /* ActivityDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDetailsModel.swift; sourceTree = "<group>"; };
+		9F1928C024640C490048C33C /* ActivityDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDetailsView.swift; sourceTree = "<group>"; };
+		9F1928C224640C7A0048C33C /* ActivityDetailsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityDetailsView.xib; sourceTree = "<group>"; };
+		9F1928C424640F3B0048C33C /* ActivityTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTitleCell.swift; sourceTree = "<group>"; };
+		9F1928C524640F3B0048C33C /* ActivityTitleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityTitleCell.xib; sourceTree = "<group>"; };
+		9F1928C82464187B0048C33C /* MetaDataCellCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaDataCellCell.swift; sourceTree = "<group>"; };
+		9F1928C92464187B0048C33C /* MetaDataCellCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MetaDataCellCell.xib; sourceTree = "<group>"; };
+		9F1928CC24641E190048C33C /* EnrichmentsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnrichmentsCell.swift; sourceTree = "<group>"; };
+		9F1928CD24641E190048C33C /* EnrichmentsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EnrichmentsCell.xib; sourceTree = "<group>"; };
+		9F1928D0246422900048C33C /* EnrichmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnrichmentsView.swift; sourceTree = "<group>"; };
+		9F1928D2246422AB0048C33C /* EnrichmentsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EnrichmentsView.xib; sourceTree = "<group>"; };
+		A0DF56BE3D8D60E7287C4221 /* Pods_OneStepTask_OneStepTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneStepTask_OneStepTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD99A66AB312D3348527C254 /* Pods-OneStepTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneStepTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-OneStepTaskTests/Pods-OneStepTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF5C0AF41F40BC68904EAEF3 /* Pods_OneStepTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BF22CDAE17CF1F3D8B13886 /* Pods_OneStepTaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +116,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C40A8E034A2FF892F29D8F9 /* Pods_OneStepTask_OneStepTaskUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E9A899BEFD9C8A9130646C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FE48268303D6E5B5017B80E /* Pods-OneStepTask.debug.xcconfig */,
+				5E52CDF4C7DCA78E896E4D5D /* Pods-OneStepTask.release.xcconfig */,
+				9CAF5099A033C60C87A9802A /* Pods-OneStepTask-OneStepTaskUITests.debug.xcconfig */,
+				6E0F90DF281ABD9EC401E0D8 /* Pods-OneStepTask-OneStepTaskUITests.release.xcconfig */,
+				AD99A66AB312D3348527C254 /* Pods-OneStepTaskTests.debug.xcconfig */,
+				4EF47D385D3BA94E6C60D352 /* Pods-OneStepTaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9F19286D2463F11F0048C33C = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +143,8 @@
 				9F1928922463F1200048C33C /* OneStepTaskTests */,
 				9F19289D2463F1210048C33C /* OneStepTaskUITests */,
 				9F1928772463F11F0048C33C /* Products */,
+				3E9A899BEFD9C8A9130646C8 /* Pods */,
+				BA842B25C0A07B85479241D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +161,9 @@
 		9F1928782463F11F0048C33C /* OneStepTask */ = {
 			isa = PBXGroup;
 			children = (
+				9F1928B924640A2A0048C33C /* Custom Views */,
+				9F1928B42463FF270048C33C /* Main Controllers */,
+				9F1928AC2463F9A20048C33C /* Network */,
 				9F1928792463F11F0048C33C /* AppDelegate.swift */,
 				9F19287B2463F11F0048C33C /* SceneDelegate.swift */,
 				9F19287D2463F11F0048C33C /* ViewController.swift */,
@@ -131,6 +194,60 @@
 			path = OneStepTaskUITests;
 			sourceTree = "<group>";
 		};
+		9F1928AC2463F9A20048C33C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9F1928B12463FC600048C33C /* Models */,
+				9F1928AD2463F9BD0048C33C /* NetworkUtils.swift */,
+				9F1928AF2463F9CF0048C33C /* NetworkKeys.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9F1928B12463FC600048C33C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9F1928B22463FC840048C33C /* ActivityDetails.swift */,
+				9F1928B72463FF8F0048C33C /* ActivityDetailsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9F1928B42463FF270048C33C /* Main Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9F1928B52463FF4B0048C33C /* ActivityViewController.swift */,
+			);
+			path = "Main Controllers";
+			sourceTree = "<group>";
+		};
+		9F1928B924640A2A0048C33C /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				9F1928C024640C490048C33C /* ActivityDetailsView.swift */,
+				9F1928C224640C7A0048C33C /* ActivityDetailsView.xib */,
+				9F1928C424640F3B0048C33C /* ActivityTitleCell.swift */,
+				9F1928C524640F3B0048C33C /* ActivityTitleCell.xib */,
+				9F1928C82464187B0048C33C /* MetaDataCellCell.swift */,
+				9F1928C92464187B0048C33C /* MetaDataCellCell.xib */,
+				9F1928CC24641E190048C33C /* EnrichmentsCell.swift */,
+				9F1928CD24641E190048C33C /* EnrichmentsCell.xib */,
+				9F1928D0246422900048C33C /* EnrichmentsView.swift */,
+				9F1928D2246422AB0048C33C /* EnrichmentsView.xib */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		BA842B25C0A07B85479241D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3634E5D86FED545F87C251C4 /* Pods_OneStepTask.framework */,
+				A0DF56BE3D8D60E7287C4221 /* Pods_OneStepTask_OneStepTaskUITests.framework */,
+				1519AD532E875195E8187338 /* Pods_OneStepTaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +255,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F1928A32463F1210048C33C /* Build configuration list for PBXNativeTarget "OneStepTask" */;
 			buildPhases = (
+				D68A6A3D8A723A6B120F65A3 /* [CP] Check Pods Manifest.lock */,
 				9F1928722463F11F0048C33C /* Sources */,
 				9F1928732463F11F0048C33C /* Frameworks */,
 				9F1928742463F11F0048C33C /* Resources */,
+				CA6294E50ACE39752D3067D5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +274,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F1928A62463F1210048C33C /* Build configuration list for PBXNativeTarget "OneStepTaskTests" */;
 			buildPhases = (
+				8DA091A50B41EB439A04F044 /* [CP] Check Pods Manifest.lock */,
 				9F19288B2463F1200048C33C /* Sources */,
 				9F19288C2463F1200048C33C /* Frameworks */,
 				9F19288D2463F1200048C33C /* Resources */,
@@ -173,9 +293,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F1928A92463F1210048C33C /* Build configuration list for PBXNativeTarget "OneStepTaskUITests" */;
 			buildPhases = (
+				4D061B4CC6882AC0C9DB470E /* [CP] Check Pods Manifest.lock */,
 				9F1928962463F1210048C33C /* Sources */,
 				9F1928972463F1210048C33C /* Frameworks */,
 				9F1928982463F1210048C33C /* Resources */,
+				93931B111F7792564366DBFE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,9 +357,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F1928CF24641E190048C33C /* EnrichmentsCell.xib in Resources */,
 				9F1928892463F1200048C33C /* LaunchScreen.storyboard in Resources */,
 				9F1928862463F1200048C33C /* Assets.xcassets in Resources */,
+				9F1928C724640F3B0048C33C /* ActivityTitleCell.xib in Resources */,
+				9F1928C324640C7A0048C33C /* ActivityDetailsView.xib in Resources */,
+				9F1928CB2464187B0048C33C /* MetaDataCellCell.xib in Resources */,
 				9F1928812463F11F0048C33C /* Main.storyboard in Resources */,
+				9F1928D3246422AB0048C33C /* EnrichmentsView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +384,127 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4D061B4CC6882AC0C9DB470E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneStepTask-OneStepTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DA091A50B41EB439A04F044 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneStepTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93931B111F7792564366DBFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OneStepTask-OneStepTaskUITests/Pods-OneStepTask-OneStepTaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OneStepTask-OneStepTaskUITests/Pods-OneStepTask-OneStepTaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OneStepTask-OneStepTaskUITests/Pods-OneStepTask-OneStepTaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA6294E50ACE39752D3067D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OneStepTask/Pods-OneStepTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OneStepTask/Pods-OneStepTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OneStepTask/Pods-OneStepTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D68A6A3D8A723A6B120F65A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneStepTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9F1928722463F11F0048C33C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9F19287E2463F11F0048C33C /* ViewController.swift in Sources */,
+				9F1928D1246422900048C33C /* EnrichmentsView.swift in Sources */,
 				9F1928842463F11F0048C33C /* OneStepTask.xcdatamodeld in Sources */,
+				9F1928C624640F3B0048C33C /* ActivityTitleCell.swift in Sources */,
+				9F1928B02463F9CF0048C33C /* NetworkKeys.swift in Sources */,
+				9F1928B62463FF4B0048C33C /* ActivityViewController.swift in Sources */,
+				9F1928C124640C490048C33C /* ActivityDetailsView.swift in Sources */,
+				9F1928AE2463F9BD0048C33C /* NetworkUtils.swift in Sources */,
+				9F1928B32463FC840048C33C /* ActivityDetails.swift in Sources */,
+				9F1928CE24641E190048C33C /* EnrichmentsCell.swift in Sources */,
 				9F19287A2463F11F0048C33C /* AppDelegate.swift in Sources */,
+				9F1928B82463FF8F0048C33C /* ActivityDetailsModel.swift in Sources */,
+				9F1928CA2464187B0048C33C /* MetaDataCellCell.swift in Sources */,
 				9F19287C2463F11F0048C33C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +676,7 @@
 		};
 		9F1928A42463F1210048C33C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FE48268303D6E5B5017B80E /* Pods-OneStepTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +695,7 @@
 		};
 		9F1928A52463F1210048C33C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E52CDF4C7DCA78E896E4D5D /* Pods-OneStepTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +714,7 @@
 		};
 		9F1928A72463F1210048C33C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD99A66AB312D3348527C254 /* Pods-OneStepTaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +737,7 @@
 		};
 		9F1928A82463F1210048C33C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EF47D385D3BA94E6C60D352 /* Pods-OneStepTaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +760,7 @@
 		};
 		9F1928AA2463F1210048C33C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CAF5099A033C60C87A9802A /* Pods-OneStepTask-OneStepTaskUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +781,7 @@
 		};
 		9F1928AB2463F1210048C33C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E0F90DF281ABD9EC401E0D8 /* Pods-OneStepTask-OneStepTaskUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
